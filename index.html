@@ -1,48 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="mycss.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
 
-<h1>Jai Shri Sita-Ram</h1>
-
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Click Here</button>
-
-<div id="id01" class="modal">  
-  <form class="modal-content animate">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="b1.jpg" alt="Avatar" class="avatar">
-    </div>
-
-    <div class="container2">
-      <label for="uname"><b>Name</b></label>
-      <input type="text" id="userinput" placeholder="Enter your Name" name="uname" required>
-      <button id="enter" onclick="document.getElementById('id01').style.display='none'">Add this Name !!</button>
-    </div>
-
-    <div class="container2" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-    </div>
-  </form>
+<div class="container">
+  <span class="text1"><b>जय राम जी की</b></span>
+  <span class="text2"><button type="button"><a href="page.html"><b>Start</b></a></button></span>
 </div>
 
-  <script>
-    // Get the modal
-    var modal = document.getElementById('id01');
-    // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-  }
-  </script>
-  <br><br><br><br><br><br><br><br><br><br>
-  <div id="container">
-    <p></p>
-  </div>
-  <script type="text/javascript" src="scrt.js"></script>
-</body>
+  </body>
 </html>
