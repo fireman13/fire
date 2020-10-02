@@ -28,9 +28,9 @@ h1 {
 
 p {
   font-family: 'Oxygen';
-  font-size: 37px;
-  font-weight: 700;
-  letter-spacing: 8px;
+  font-size: 38px;
+  font-weight: 710;
+  letter-spacing: 6px;
   margin-bottom: 20px;
   position: relative;
   animation: text 2.5s 1;
@@ -40,11 +40,11 @@ p {
 
 button {
     background-color: coral;
-    color: whitesmoke;
+    color: azure;
     font-size: large;
     padding: 14px 20px;
     margin: 8px 0;
-    border: 2px solid crimson;
+    border: 3px solid crimson;
     cursor: pointer;
     width: 50%;
   }
